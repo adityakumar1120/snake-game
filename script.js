@@ -169,7 +169,7 @@ selectLevel.addEventListener('change', (e)=>{
 })
 
 keys.addEventListener('click' , (e)=>{
-    document.write(e.target.dataset.key);
+   // document.write(e.target.dataset.key);
     velocity = {x:0, y:1}
     moveSound.play()
     if(e.target.dataset.key == 'ArrowUp'){
