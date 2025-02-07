@@ -78,6 +78,9 @@ main{
    
 
  }
+.key img{
+    pointer-events:none;
+}
  .up-down{
     width: 25%;
     height: 90%;
