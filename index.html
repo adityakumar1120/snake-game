@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+  
+</head>
+<body>
+    <div class="nav">
+        <span class="high-score scores"> High Score: 0</span>
+        <div class="scores-cont">
+            <span class="score scores">score: 0</span>
+        </div>
+        <div class="level">
+            <select name="" id="select-level">
+                <option value="medium" selected hidden >Medium</option>
+                <option value="easy">Easy</option>
+                <option value="medium" >Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+        </div>
+    </div>
+    <main>
+        <div class="board">
+            
+        </div>
+        <div class="keys">
+            <div class="left key" data-key="ArrowLeft">
+                <img src="left.svg" alt="left" id="left">
+            </div>
+           <div class="up-down">
+            <div class="up key" data-key="ArrowUp">
+                <img src="up.svg" alt="up" id="up">
+                </div>
+                <div class="down key" data-key="ArrowDown">
+        <img src="down.svg" alt="down" id="down">
+                </div>
+           </div>
+            
+            <div class="right key" data-key="ArrowRight">
+                <img src="/right.svg" alt="right" id="right">
+            </div>
+    
+        </div>
+    
+    </main>
+</body>
+</html>
